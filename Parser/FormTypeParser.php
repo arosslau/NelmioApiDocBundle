@@ -206,6 +206,7 @@ class FormTypeParser implements ParserInterface
             $config     = $child->getConfig();
             $options    = $config->getOptions();
             $bestType   = '';
+            $subForm    = null;
             $actualType = null;
             $subType    = null;
             $children   = null;
